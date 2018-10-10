@@ -1,4 +1,4 @@
-package whatfood.whatfood;
+package whatfood.whatfood.ui;
 
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import whatfood.whatfood.R;
 
 public class MainActivity extends AppCompatActivity {
 

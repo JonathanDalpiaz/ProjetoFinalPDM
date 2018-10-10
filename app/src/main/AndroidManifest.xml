@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.ExibirReceitas" />
+        <activity android:name=".ui.CadastrarIngredientes" />
+        <activity android:name=".ui.IngredientesCadastrados"></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,7 @@
 package whatfood.whatfood.ui;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,11 +18,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void exibirReceitas(View v){}
+    public void exibirReceitas(View v){
 
-    public void cadastrarIngredientes(View v){}
+        Intent intent = new Intent(this, ExibirReceitas.class);
+        startActivity(intent);
 
-    public void ingredientesCadastrados(View v){}
+
+    }
+
+    public void cadastrarIngredientes(View v){
+
+        Intent intent = new Intent(this, CadastrarIngredientes.class);
+        startActivity(intent);
+
+
+    }
+
+    public void ingredientesCadastrados(View v){
+
+        Intent intent = new Intent(this, IngredientesCadastrados.class);
+        startActivity(intent);
+
+    }
 
     public void sairTelaInicial(View v){ this.finish();}
 

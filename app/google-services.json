@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "874765609358",
+    "firebase_url": "https://whatfood-1c592.firebaseio.com",
+    "project_id": "whatfood-1c592",
+    "storage_bucket": "whatfood-1c592.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874765609358:android:fd22299bbfb11797",
+        "android_client_info": {
+          "package_name": "whatfood.whatfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874765609358-um1l4vkq9g3mog9276am294rnmim7j4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN2G-XC74lWYXXN11M7_NvSw-ovaIEJPU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

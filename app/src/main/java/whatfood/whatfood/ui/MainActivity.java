@@ -41,8 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void sairTelaInicial(View v){ this.finish();}
-
     private AlertDialog alerta;
 
     private void mensagemSobre() {

@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">WhatFood</string>
+
+    <string-array name="medidaQuantidade">
+        <item>KG</item>
+        <item>LITRO</item>
+        <item>ML</item>
+        <item>UNIDADE</item>
+        <item>GRAMA</item>
+    </string-array>
 </resources>
